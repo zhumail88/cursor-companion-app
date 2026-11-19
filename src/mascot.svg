@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="120" viewBox="0 0 128 120">
+  <defs>
+    <linearGradient id="body" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#b9a6ff"/>
+      <stop offset="0.55" stop-color="#9d86f7"/>
+      <stop offset="1" stop-color="#7f63ea"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- body: a soft dome with a slightly wobbly base -->
+  <path fill="url(#body)" d="M64 8C96 8 118 34 120 68c1.5 24-6 40-20 43-7 1.6-11-3-17-3s-9 5-19 5-13-5-19-5-10 4.6-17 3C14 108 6.5 92 8 68 10 34 32 8 64 8Z"/>
+
+  <!-- glossy highlight -->
+  <ellipse cx="40" cy="34" rx="16" ry="10" fill="url(#shine)" transform="rotate(-30 40 34)"/>
+  <ellipse cx="30" cy="50" rx="3.5" ry="3" fill="#fff" opacity="0.7"/>
+
+  <!-- eyes -->
+  <ellipse cx="47" cy="62" rx="7" ry="9" fill="#2b2140"/>
+  <ellipse cx="81" cy="62" rx="7" ry="9" fill="#2b2140"/>
+  <circle cx="49.5" cy="58.5" r="2.8" fill="#fff"/>
+  <circle cx="83.5" cy="58.5" r="2.8" fill="#fff"/>
+  <circle cx="45" cy="66" r="1.2" fill="#fff" opacity="0.8"/>
+  <circle cx="79" cy="66" r="1.2" fill="#fff" opacity="0.8"/>
+
+  <!-- blush -->
+  <ellipse cx="34" cy="76" rx="7.5" ry="4.5" fill="#ff8fc0" opacity="0.6"/>
+  <ellipse cx="94" cy="76" rx="7.5" ry="4.5" fill="#ff8fc0" opacity="0.6"/>
+
+  <!-- smile -->
+  <path d="M57 75q7 7 14 0" fill="none" stroke="#2b2140" stroke-width="3" stroke-linecap="round"/>
+</svg>
