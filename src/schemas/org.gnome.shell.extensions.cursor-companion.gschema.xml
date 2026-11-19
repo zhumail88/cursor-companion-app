@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.cursor-companion"
+          path="/org/gnome/shell/extensions/cursor-companion/">
+    <key name="active" type="b">
+      <default>true</default>
+      <summary>Show the companion</summary>
+    </key>
+    <key name="image-path" type="s">
+      <default>''</default>
+      <summary>Image to display (empty = the built-in blob mascot; ~ is your home folder)</summary>
+    </key>
+    <key name="size" type="i">
+      <range min="24" max="512"/>
+      <default>72</default>
+      <summary>Longest side of the image, in pixels</summary>
+    </key>
+    <key name="offset-x" type="i">
+      <range min="-300" max="300"/>
+      <default>20</default>
+      <summary>Horizontal distance from the cursor</summary>
+    </key>
+    <key name="offset-y" type="i">
+      <range min="-300" max="300"/>
+      <default>22</default>
+      <summary>Vertical distance from the cursor</summary>
+    </key>
+    <key name="follow-speed" type="d">
+      <range min="0.02" max="1.0"/>
+      <default>0.18</default>
+      <summary>Fraction of the gap closed per frame (higher = snappier)</summary>
+    </key>
+    <key name="bounce-intensity" type="d">
+      <range min="0.0" max="3.0"/>
+      <default>1.0</default>
+      <summary>Bounce strength</summary>
+    </key>
+    <key name="tilt-intensity" type="d">
+      <range min="0.0" max="3.0"/>
+      <default>1.0</default>
+      <summary>Tilt strength</summary>
+    </key>
+    <key name="show-panel-icon" type="b">
+      <default>true</default>
+      <summary>Show the on/off icon in the top bar</summary>
+    </key>
+    <key name="toggle-shortcut" type="as">
+      <default><![CDATA[['<Super><Alt>c']]]></default>
+      <summary>Keyboard shortcut that turns the companion on/off</summary>
+    </key>
+  </schema>
+</schemalist>

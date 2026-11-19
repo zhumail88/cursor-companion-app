@@ -1,0 +1,9 @@
+{
+  "uuid": "cursor-companion@zhumail88.github.io",
+  "name": "Cursor Companion",
+  "description": "A tiny picture that follows your mouse pointer, smoothly chasing, bouncing and tilting as it goes. Comes with a cute blob, or use any image you like.\n\nLeft-click the top bar icon (or press Super+Alt+C) to turn it on or off. Right-click it for settings: image, size, follow speed, distance, bounce and tilt.",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.cursor-companion",
+  "url": "https://github.com/zhumail88/cursor-companion-app",
+  "version-name": "1.0"
+}
